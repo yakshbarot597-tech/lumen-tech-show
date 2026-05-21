@@ -5,7 +5,7 @@ const timeline = [
   {
     Icon: GraduationCap,
     title: "B.Tech — Artificial Intelligence & Machine Learning",
-    org: "Your Engineering College",
+    org: "St. Xavier's College",
     when: "2024 — 2028 · Currently 2nd Year",
     desc: "Specializing in AI/ML, data structures, full-stack web development, and intelligent systems.",
   },

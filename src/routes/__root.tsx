@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aarav Sharma — AI/ML Engineer & Developer Portfolio" },
+      { title: "Yaksh Barot — AI/ML Engineer & Developer Portfolio" },
       { name: "description", content: "Portfolio of an AI/ML engineering student building futuristic full-stack and intelligent systems." },
-      { name: "author", content: "Aarav Sharma" },
-      { property: "og:title", content: "Aarav Sharma — AI/ML Engineer Portfolio" },
+      { name: "author", content: "Barot Yaksh Maheshkumar" },
+      { property: "og:title", content: "Yaksh Barot — AI/ML Engineer Portfolio" },
       { property: "og:description", content: "Futuristic portfolio showcasing AI projects, full-stack work and smart systems." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
