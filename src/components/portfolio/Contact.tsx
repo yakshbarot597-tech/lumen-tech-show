@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
+import { Mail, Github, Linkedin, Send, Phone } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const channels = [
