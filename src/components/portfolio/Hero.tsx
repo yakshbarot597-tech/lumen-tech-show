@@ -65,7 +65,7 @@ export function Hero() {
         </span>
 
         <h1 className="animate-fade-up text-4xl font-bold leading-tight tracking-tight sm:text-6xl md:text-7xl" style={{ animationDelay: "0.1s" }}>
-          Hi, I'm <span className="text-gradient">Aarav Sharma</span>
+          Hi, I'm <span className="text-gradient">Yaksh Barot</span>
         </h1>
 
         <div className="mt-6 flex h-10 items-center justify-center animate-fade-up" style={{ animationDelay: "0.2s" }}>

@@ -1,12 +1,12 @@
 import { useState, type FormEvent } from "react";
-import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
+import { Mail, Github, Linkedin, Send, Phone } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const channels = [
-  { Icon: Mail, label: "Email", value: "aarav@example.com", href: "mailto:aarav@example.com" },
-  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/aarav", href: "https://linkedin.com" },
-  { Icon: Github, label: "GitHub", value: "github.com/aarav", href: "https://github.com" },
-  { Icon: MapPin, label: "Location", value: "India · Open to Remote", href: "#" },
+  { Icon: Phone, label: "Phone", value: "+91 63538 74452", href: "tel:+916353874452" },
+  { Icon: Mail, label: "Email", value: "yaksh@example.com", href: "mailto:yaksh@example.com" },
+  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/yakshbarot", href: "https://linkedin.com" },
+  { Icon: Github, label: "GitHub", value: "github.com/yakshbarot", href: "https://github.com" },
 ];
 
 export function Contact() {
@@ -98,7 +98,7 @@ export function Contact() {
 
       <footer className="mt-24 border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-8 text-sm text-muted-foreground sm:flex-row">
-          <p>© {new Date().getFullYear()} Aarav Sharma — Crafted with curiosity.</p>
+          <p>© {new Date().getFullYear()} Barot Yaksh Maheshkumar — Crafted with curiosity.</p>
           <p className="font-mono-tech text-xs">Built with React + TanStack ⚡</p>
         </div>
       </footer>
